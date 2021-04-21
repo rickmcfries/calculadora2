@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+        <div class="contenedor-calculadora">
+
+            <div class="pantalla">
+                <input type="text" placeholder="0" disabled id="pantalla-resultado">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="7" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="8" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="9" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="+" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="4" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="5" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="6" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="-" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="1" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="2" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="3" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="*" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal">
+                <input type="button" value="0" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius">
+                <input type="button" value="/" onclick="pikarle(this)">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-clean">
+                <input type="button" value="C" class="clean" onclick="clear()">
+            </div>
+            <div class="btn-cal btn-cal-radius btn-equal">
+                <input type="button" value="=" class="equal" onclick="calcular()">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
